@@ -1,0 +1,30 @@
+{
+  "name": "health",
+  "version": "1.0.0",
+  "description": "health and life logevity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romart007/Health-and-life.git"
+  },
+  "author": "labBoss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romart007/Health-and-life/issues"
+  },
+  "homepage": "https://github.com/romart007/Health-and-life#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0"
+  }
+}
