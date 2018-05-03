@@ -1,0 +1,30 @@
+.contact {
+	background-color: #232323;
+	color: white;
+	padding: 60px 0;
+
+	a {  
+
+		color: white; 
+	}
+
+
+	.contact-title,
+	.contact-info,
+	.contact-social {
+		font-size: 20px;
+		font-weight: 400 !important;
+
+	}
+
+	.contact-detail {
+		font-size: 15px;
+		font-weight: 400 !important;
+	}
+
+	.contact-socials a { 
+		margin-right: 35px;
+		display: inline-block;
+
+	}
+}

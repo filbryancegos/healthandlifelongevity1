@@ -1,0 +1,19 @@
+.order {
+	padding: 100px 0 80px 0;
+
+
+	.rating {
+		display: inline-block;
+		margin: 12.5px 0 12.5px 0;
+	}
+
+	.btn.btn-outline-secondary {
+		color: #232323;
+		border-radius: 0;  
+		box-shadow: none;
+		outline: 0 none;
+		width: 200px;
+
+		&:hover { color: white;  }
+	}
+}

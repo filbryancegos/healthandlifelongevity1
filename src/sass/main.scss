@@ -1,34 +1,35 @@
-//import roboto fonts
+/*import roboto fonts*/
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
 
-//load variables
+/*load abstract*/
 @import 'abstract/variables';
 
-//load vendor
+/*load vendor*/
 @import 'vendor/bootstrap';
 
-//load mixins
+/*load mixins*/
 @import 'mixins/mixins_general';
 @import 'mixins/mixins_breakpoints';
 
-//load components
+/*load components*/
 @import "components/navigation";
 
-//load base
+/*load base*/
 @import 'base/utilities';
 @import 'base/typography';
 
-//load structure
-@import 'structure/parallax';
+/*load structure*/
 @import 'structure/header';
-@import 'structure/sections';
 @import 'structure/footer';
-@import 'structure/responsive';
 
-//load pages
-@import 'pages/hero';
-@import 'pages/about';
-@import 'pages/services';
-@import 'pages/qoute';
-@import 'pages/contact';
+@import 'pages/about-page';
+
+/*load sections*/
+@import 'sections/banner';
+@import 'sections/about';
+@import 'sections/benefits';
+@import 'sections/order';
+@import 'sections/contact';
+@import 'sections/signup';
+
 

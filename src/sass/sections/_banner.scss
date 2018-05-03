@@ -1,0 +1,17 @@
+#banner {
+	background: url('../images/banner-with-opacity.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 500px;
+	overflow: hidden;
+
+	.btn.btn-warning { 
+		background-color: #e0932f;
+		border-color: #e0932f;
+		border-radius: 0;  
+		box-shadow: none;
+		outline: 0 none;
+		width: 200px;
+	}
+}

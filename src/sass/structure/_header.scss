@@ -1,0 +1,27 @@
+.top-info { 
+	
+	li a {
+		display: inline-block;
+		font-size: 12px;		
+		margin: 12px;
+		text-decoration: none;
+	}
+
+}
+
+header {
+	
+	padding: 32px 0;
+
+	.search-logo { 
+		color: #d6d5d5;
+		font-weight: bold;
+	}
+
+	.cart-icon img { height: 18px; }
+
+	.count-icon img { height: 17px; }
+
+	.text-muted { line-height: 1.5; }
+
+}

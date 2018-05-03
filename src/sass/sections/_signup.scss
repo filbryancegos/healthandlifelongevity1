@@ -1,0 +1,26 @@
+.signup {
+	background: url('../images/layer-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 300px;
+	padding: 70px;
+
+
+	.input-group { width: 410px; }
+
+	input.form-control {
+		background: transparent;
+		border-radius: 0;
+		outline: 0 none;
+	}
+
+	.btn.btn-warning {
+		background-color: #e0932f;
+		border-color: #e0932f;
+		border-radius: 0;
+		outline: 0 none;	&:hover { background-color: rgba(#e0932f, .7);}
+	}
+
+
+}
