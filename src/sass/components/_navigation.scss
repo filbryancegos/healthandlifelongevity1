@@ -9,11 +9,15 @@
 	
 
 	.nav-item {
-
+            
+            &.active a { color: #498238 !important; }
+            
 		.nav-link {
 			display: inline-block;
 			padding: 20px 25px !important;
 			font-weight: 700;
+                        
+                        
 		}
 
 	}
