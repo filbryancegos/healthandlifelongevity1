@@ -1,0 +1,38 @@
+.blog-link {
+    border-bottom: 1px solid #6f6f6f;
+    color: #232323;
+    text-decoration: none !important;
+
+    &:hover { 
+        color: black; 
+        border-bottom: 1px solid black;
+    }
+}
+
+.page-line {
+    border-top: 1px solid #f0f0f0;  
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.page-item {
+
+    &:first-of-type .page-link,
+        &:last-of-type .page-link { color: #343434; }
+
+    .page-link {
+        border-radius: 0 !important;
+        border-color: #e4e4e4;
+        background: transparent;
+        color: #e4e4e4;
+        outline: 0 none;
+
+
+        &:hover, &.active, &:active, &:focus {
+            background: #343434 !important;
+            border: 1px solid #343434;
+            color: white;
+            box-shadow: none;
+            outline: 0 none;
+        }
+    }
+}
