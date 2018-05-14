@@ -9,26 +9,29 @@
         padding: 10px 22px;
         top: 22px;
     }
-    
+
     .view-prod {
-        background: orange;
+        background: rgba(0,0,0,.7);
         left: 0;
-        width: 100%;
-        visibility: hidden;
-        position: absolute;
         padding: 10px 0;
         bottom: 0;
+        height: 60px;
+        line-height: 2.8;
+        visibility: hidden;
+        position: absolute;
+        width: 100%;
+
     }
     .overlay-img {
-        padding: 57px 0;
+        padding-top: 57px;
 
         &:hover { 
             background: #f5f5f5; 
-            padding: 57px 29.5px;
+            padding: 57px 29.5px 0 29.5px;
             cursor: pointer;
 
             & .new-item, .view-prod { visibility: visible; }
-            
+
         }
     }
 }
