@@ -1,32 +1,40 @@
-.about-page-title {
+#contact {
+
+    .mail-contact:before, .mark-contact:before {
+        content: url(../images/mail.png);
+        height: 20px;
+        width: 20px;
+        margin-right: 15px;
+        position: relative;
+        top: 3px;
+    }
+
+    .mark-contact:before { content: url(../images/mark.png); }
+
+}
+
+.contact-page-title {
     font-weight: 500;
 
     .highlight { color: #939393; }
-
 }
 
-.about-banner-text { line-height: 1.6; }
+input, textarea {
 
-.about-btn.btn-outline-secondary { 
-    border-radius: 0;
-    color: #232323;
-    width: 200px;
+    @include form-placeholder { 
+        color: #a7a7a7 !important;
+        font-weight: 500; 
+    }
 }
 
-.about-order-text { line-height: 2; }
+textarea { resize: none !important; }
 
-.about-facts {
-
-    background: url('../images/about-facts.png');
-    background-color: #f5f5f5;
+.map {
+    background: url(../images/map.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 429px;
-    padding: 70px;
-
-
-
-
-
-}
+    height: 400px;
+    width: 100%;
+    cursor: pointer;
+} 
